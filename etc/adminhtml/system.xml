@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="dev" translate="label">
+            <group id="session_lifetime" translate="label" type="text" sortOrder="5" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>MageSuite session</label>
+                <field id="status" translate="label comment" type="select" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0" canRestore="1">
+                    <label>Status</label>
+                    <comment>Enabling this feature will regenerate session lifetime while going through pages (Default Magento 2.1 functionality is after customer session lifetime is setup and never changed again)</comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
