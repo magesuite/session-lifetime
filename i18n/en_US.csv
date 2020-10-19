@@ -1,0 +1,3 @@
+"MageSuite session","MageSuite session"
+Status,Status
+"Enabling this feature will regenerate session lifetime while going through pages (Default Magento 2.1 functionality is after customer session lifetime is setup and never changed again)","Enabling this feature will regenerate session lifetime while going through pages (Default Magento 2.1 functionality is after customer session lifetime is setup and never changed again)"
